@@ -47,7 +47,7 @@ function toggleNav(){
 // when clicking + or ☰ button
 $("button").click(function(){
   // when clicking ☰ button, open nav
-    // createBalloons(50);
+    createBalloons(50);
   if($("header").hasClass("open")){
     toggleNav();
   }
